@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+
+/* General */
+.dark {
+  background-color: #404042;
+  color: gray;
+}
+
+/* Header */
+nav {
+  .btn {
+    padding-top: 1px;
+  }
+}
+
+nav {
+  .button-theme {
+    background: none !important;
+    border: none !important;
+    &:active {
+      box-shadow: none !important;
+    }
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+nav {
+  .theme-icon {
+    height: 22px;
+    width: 22px;
+    min-width: 22px;
+    margin-bottom: 0;
+  }
+}
